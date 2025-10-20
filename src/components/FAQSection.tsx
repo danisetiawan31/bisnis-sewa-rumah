@@ -9,16 +9,19 @@ import { Card, CardContent } from "@/components/ui/card";
 const FAQSection = () => {
   const faqs = [
     {
-      question: "Apakah deposit diperlukan?",
-      answer: "Ya, deposit sebesar 1 bulan sewa diperlukan saat penandatanganan kontrak. Deposit akan dikembalikan penuh di akhir masa sewa jika tidak ada kerusakan properti.",
+      question: "Apakah Rumah Selalu dijaga dan dibersihkan?",
+      answer:
+        "Ya, pemilik sewa rumah tinggal di sebelah rumah yang disewakan, sehingga sudah dipastikan rumah selalu dijaga dan dibersihkan setiap pagi oleh pemilik.",
     },
     {
       question: "Apakah hewan peliharaan diperbolehkan?",
-      answer: "Hewan peliharaan kecil seperti kucing atau anjing kecil diperbolehkan dengan persetujuan pemilik. Biaya tambahan untuk pembersihan mungkin berlaku.",
+      answer:
+        "Hewan peliharaan kecil seperti kucing atau anjing kecil diperbolehkan dengan persetujuan pemilik. Biaya tambahan untuk pembersihan mungkin berlaku.",
     },
     {
       question: "Berapa lama kontrak sewa minimum?",
-      answer: "Kontrak sewa minimum adalah 6 bulan untuk sewa bulanan. Untuk sewa tahunan, kontrak minimum adalah 1 tahun dengan opsi perpanjangan.",
+      answer:
+        "Kontrak sewa minimum adalah 1 bulan untuk sewa bulanan. Untuk sewa tahunan, kontrak minimum adalah 1 tahun dengan opsi perpanjangan.",
     },
   ];
 
